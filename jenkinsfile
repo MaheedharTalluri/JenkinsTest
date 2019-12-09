@@ -1,0 +1,13 @@
+pipeline{
+agent any{
+stages{
+stage('tomcat'){
+steps{
+sh './Tomcat_custom_installation.sh'
+}
+}
+
+}
+
+}
+}
